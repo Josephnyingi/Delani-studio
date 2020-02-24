@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Cute+Font|Merienda");
-@import url("https://fonts.googleapis.com/css?family=Akronim");
+body{
+    text-align: center!important;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,11 +13,10 @@
     padding-top: 14%;
     margin-bottom: 9%;
 }
-#head {      
+#hed {      
     background-image: url('../Images/IP3/assets/backgrounds/h_img.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
 }
 h6 {
     height: 1vh;
@@ -34,18 +34,16 @@ h6 {
 .specific,
 #contact,
 .footer p {
-    font-family: 'Merienda', cursive;
     text-align: center;
 }
 .col-md-12 {
     width: 100%;
     color: #fff;
-    font-family: 'Akronim', cursive;
+    
     font-size: calc(1vw + 1vh + .5vmin);
     font-size: 1.1em;
 }
 h1 {
-    font-family: 'Akronim', cursive;
     text-align: center;
 }
 #service {
@@ -166,7 +164,7 @@ h1 {
     margin: 20% 5%;
     overflow: hidden;
     letter-spacing: 2px;
-    font-family: 'Merienda', cursive;
+    
 }
 @media screen and (max-width:450px) {
     .form-cont input {
